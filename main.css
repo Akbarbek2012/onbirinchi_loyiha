@@ -1,0 +1,28 @@
+.container{
+    border: 2px solid black;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-items: center;
+
+}
+
+img{
+    width: 350px;
+    height: 200px;
+    opacity: 0.5;
+}
+img:hover{
+    opacity: 1;
+    transition:  0.5s;
+}
+.img{
+    width: 32.5%;
+}
+.img1{
+    width: 49%;
+}
+.img2{
+    width: 99%;
+}
